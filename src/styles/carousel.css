@@ -1,0 +1,21 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-button {
+    background-color: #f2f2f2;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.carousel-image {
+    max-width: 100%;
+    height: auto;
+}

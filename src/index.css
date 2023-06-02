@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Aeroport-700';
+    src: url('./assets/fonts/Aeroport/Aeroport-Medium.ttf') format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'Aeroport-400';
+    src: url('./assets/fonts/Aeroport/Aeroport-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Manrope-400';
+    src: url('./assets/fonts/Manrope/static/Manrope-Light.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Manrope-700';
+    src: url('./assets/fonts/Manrope/static/Manrope-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Manrope-900';
+    src: url('./assets/fonts/Manrope/static/Manrope-Bold.ttf') format('truetype');
+}
+
+.aeroport-medium {
+    font-family: Aeroport-700;
+}
+
+.aeroport-light {
+    font-family: Aeroport-400;
+}
+
+.manrope-medium {
+    font-family: Manrope-700;
+}
+
+.manrope-light {
+    font-family: Manrope-400;
+}
+
+.manrope-bold {
+    font-family: Manrope-900;
 }
