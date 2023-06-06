@@ -2,8 +2,8 @@ import React, {useEffect, useState} from 'react';
 import {BasketItem} from "../model/BasketItem";
 import {useNavigate} from "react-router-dom";
 import axios from "axios";
-import {log} from "util";
-
+// @ts-ignore
+import logo from "../assets/logo.svg"
 const OrderPage = () => {
 
     const [items, setItems] = useState<BasketItem[]>([]);
@@ -136,8 +136,10 @@ const OrderPage = () => {
                 </div>
                 :
                 <div onClick={() => console.log(order)}
-                     className={"text-3xl aeroport-medium h-screen flex flex-col items-center justify-center"}>
-                    <p>Дякуємо за замовлення!</p>
+                     className={"text-2xl aeroport-medium h-screen flex flex-col items-center justify-center"}>
+                    <img className={"w-1/2 mb-5"} src={logo} alt=""/>
+                    <p className={"text-center"}>Дякуємо за замовлення!</p>
+
                 </div>
             }
         </>
