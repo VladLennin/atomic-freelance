@@ -8,22 +8,22 @@ import img5 from "../assets/prod3-assets/5.png";// @ts-ignore
 import img6 from "../assets/prod3-assets/6.png";// @ts-ignore
 import img7 from "../assets/prod3-assets/7.png";// @ts-ignore
 import img8 from "../assets/prod3-assets/8.png";// @ts-ignore
-import img1 from "../assets/prod3-assets/1.jpg";// @ts-ignore
-import img3 from "../assets/prod3-assets/3.jpg";// @ts-ignore
-import img2 from "../assets/prod3-assets/2.jpg";// @ts-ignore
+import img1 from "../assets/prod3-assets/1.png";// @ts-ignore
+import img3 from "../assets/prod3-assets/3.png";// @ts-ignore
+import img2 from "../assets/prod3-assets/2.png";// @ts-ignore
 import img4 from "../assets/prod3-assets/4.png";
 
 const ProductPage3 = () => {
 
     const product = {
-        title: "AKRAPOVIC MTP-VW/T/2 Slip-On Race Line (Titanium) VWGolf (VII) GTI",
+        title: "AKRAPOVIC S-AU/TI/20H Вихлопна система Evolution Line (Ti) для AUDI RS Q8 (4M) (S-AU/TI/16H)",
         characteristics: [
-            {name: "Потужність", value: "+3.0 kW", description: "at 4600 rpm"},
-            {name: "Крутний момент", value: "+7.2 Nm", description: "at 3750 rpm"},
-            {name: "Вага", value: "-4.9 kg", description: ""},
+            {name: "Потужність", value: "+4.6 kW", description: "at 6200 rpm"},
+            {name: "Крутний момент", value: "+5.9 Nm", description: "at 3500 rpm"},
+            {name: "Вага", value: "-12.2 kg", description: ""},
         ],
         titleBeforeDesc: "ЛИШЕ СЕРТИФІКОВАНІ ТОВАРИ ВІД ОФІЦІЙНОГО ПРЕДСТАВНИКА!",
-        cost: 95049.00,
+        cost: 374495.00 ,
         img: img2,
         description: "Причини придбати у ATOMIC-SHOP:\n" +
             "▪️офіційна гарантія від виробника\n" +
@@ -80,7 +80,7 @@ const ProductPage3 = () => {
     };
 
     const carouselItems = [
-        img5, img6, img7, img8
+         img6, img5,img7, img8
     ];
 
     return (
@@ -147,19 +147,19 @@ const ProductPage3 = () => {
                         <p>HP (i)</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>167.4 / 4800 rpm</p>
-                        <p>227.6 / 4800 rpm</p>
-                        <p>224.5 / 4800 rpm</p>
+                        <p>441.3 / 6200 rpm</p>
+                        <p>600 / 6200 rpm</p>
+                        <p>591.8 / 6200 rpm</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>170 / 4800 rpm</p>
-                        <p>231.1 / 4800 rpm</p>
-                        <p>227.9 / 4800 rpm</p>
+                        <p>445.9 / 6200 rpm</p>
+                        <p>606.3 / 6200 rpm</p>
+                        <p>598 / 6200 rpm</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>+ 3 / 4600 rpm</p>
-                        <p>+ 4.1 / 4600 rpm</p>
-                        <p>+ 4 / 4600 rpm</p>
+                        <p>+ 4.6 / 6200 rpm</p>
+                        <p>+ 6.3 / 6200 rpm</p>
+                        <p>+ 6.2 / 6200 rpm</p>
                     </div>
 
                     <div className={"col-span-9 h-[1px] bg-gray-700 w-full"}/>
@@ -170,16 +170,16 @@ const ProductPage3 = () => {
                         <p>lb-ft</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>371.3 / 2100 rpm</p>
-                        <p>273.9 / 2100 rpm</p>
+                        <p>858.3 / 3550 rpm</p>
+                        <p>633 / 3550 rpm</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>372.4 / 2100 rpm</p>
-                        <p>274.7 / 2100 rpm</p>
+                        <p>864.2 / 3500 rpm</p>
+                        <p>637.4 / 3500 rpm</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>+ 7.2 / 3750 rpm</p>
-                        <p>+ 5.3 / 3750 rpm</p>
+                        <p>+ 5.9 / 3500 rpm</p>
+                        <p>+ 4.4 / 3500 rpm</p>
                     </div>
 
                     <div className={"col-span-9 h-[1px] bg-gray-700 w-full"}/>
@@ -191,20 +191,20 @@ const ProductPage3 = () => {
                         <p>%</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>10.8</p>
-                        <p>23.8</p>
+                        <p>29.6</p>
+                        <p>65.3</p>
                         <p></p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>5.9 - 4.9</p>
-                        <p>13 - 10.8</p>
+                        <p>17.45 - 12.2</p>
+                        <p>38.5 - 26.8</p>
                         <p></p>
 
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>- 4.9</p>
-                        <p> - 10.8</p>
-                        <p>- 45.4</p>
+                        <p>- 12.2</p>
+                        <p>- 26.8</p>
+                        <p>- 41</p>
                     </div>
 
                     <div className={"col-span-9 h-[1px] bg-gray-700 w-full"}/>
@@ -216,7 +216,7 @@ const ProductPage3 = () => {
                     <div className={"col-span-2 flex flex-col gap-3"}>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>90</p>
+                        <p>240</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
                     </div>
