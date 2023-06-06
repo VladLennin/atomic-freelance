@@ -33,7 +33,7 @@ const BasketSideBar: FC<BasketProps> = ({
 
     return (
         <div
-            className={(isActive ? " h-3/4 " : " h-[0px] ") + " flex flex-col justify-between fixed w-full duration-300  z-50 bg-[#EEEDEE] border-b-2 shadow-2xl aeroport-medium"}>
+            className={(isActive ? " h-3/4 " : " h-[0px] ") + " flex flex-col justify-between overflow-y-auto fixed w-full duration-300  z-50 bg-[#EEEDEE] border-b-2 shadow-2xl aeroport-medium"}>
             {
                 isActive &&
                 <>
@@ -77,7 +77,7 @@ const BasketSideBar: FC<BasketProps> = ({
                                     Сума до оплати: {totalCost} грн
                                 </div>
                                 <div className={"flex justify-center "}>
-                                    <div className={"w-3/4 text-center py-2 mt-5 text-xl bg-gray-300"}>
+                                    <div className={" w-3/4 text-center py-2 mt-5 text-xl bg-gray-300"}>
                                         <Link to={"/order"}>Замовити</Link>
                                     </div>
                                 </div>
