@@ -6,10 +6,6 @@ import Footer from "../components/Footer";
 // @ts-ignore
 import img5 from "../assets/prod4-assets/5.png";// @ts-ignore
 import img6 from "../assets/prod4-assets/6.png";// @ts-ignore
-import img7 from "../assets/prod4-assets/7.png";// @ts-ignore
-import img8 from "../assets/prod4-assets/8.png";// @ts-ignore
-import img9 from "../assets/prod4-assets/9.png";// @ts-ignore
-import img10 from "../assets/prod4-assets/10.png";// @ts-ignore
 import img1 from "../assets/prod4-assets/1.png";// @ts-ignore
 import img3 from "../assets/prod4-assets/3.png";// @ts-ignore
 import img2 from "../assets/prod4-assets/2.png";// @ts-ignore
@@ -18,14 +14,14 @@ import img4 from "../assets/prod4-assets/4.png";
 const ProductPage4 = () => {
 
     const product = {
-        title: "AKRAPOVIC S-BM/T/3H Задня частина вихлопної системи Slip-On line (Titanium) BMW M2 COMPETITION/M2 CS (F87N) - OPF/GPF",
+        title: "AKRAPOVIC S-BM/T/2H Титанова вихлопна система Evolution Line для BMW F90 M5 (без насадок)",
         characteristics: [
-            {name: "Потужність", value: "+3.6 kW", description: "at 5100 rpm"},
-            {name: "Крутний момент", value: "+6.0 Nm", description: "at 5150 rpm"},
-            {name: "Вага", value: "-10.2 kg", description: ""},
+            {name: "Потужність", value: "+8.3 kW", description: "at 5700 rpm"},
+            {name: "Крутний момент", value: "+21.3 Nm", description: "at 2300 rpm"},
+            {name: "Вага", value: "-9.4 kg", description: ""},
         ],
         titleBeforeDesc: "ЛИШЕ СЕРТИФІКОВАНІ ТОВАРИ ВІД ОФІЦІЙНОГО ПРЕДСТАВНИКА!",
-        cost: 224293.00,
+        cost: 328360.00,
         img: img2,
         description: "Причини придбати у ATOMIC-SHOP:\n" +
             "▪️офіційна гарантія від виробника\n" +
@@ -82,7 +78,7 @@ const ProductPage4 = () => {
     };
 
     const carouselItems = [
-        img5, img6, img7, img8, img9, img10
+        img1, img2, img3,
     ];
 
     return (
@@ -149,19 +145,19 @@ const ProductPage4 = () => {
                         <p>HP (i)</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>302.4 / 5550 rpm</p>
-                        <p>411.1 / 5550 rpm</p>
-                        <p>405.5 / 5550 rpm</p>
+                        <p>439.2 / 6100 rpm</p>
+                        <p>597.1 / 6100 rpm</p>
+                        <p>589 / 6100 rpm</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>304.1 / 5450 rpm</p>
-                        <p>413.5 / 5450 rpm</p>
-                        <p>407.8 / 5450 rpm</p>
+                        <p>443.4 / 6100 rpm</p>
+                        <p>602.8 / 6100 rpm</p>
+                        <p>594.6 / 6100 rpm</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>+ 3.6 / 5100 rpm</p>
-                        <p>	+ 4.9 / 5100 rpm</p>
-                        <p>+ 4.8 / 5100 rpm</p>
+                        <p>+ 8.3 / 5700 rpm</p>
+                        <p>+ 11.3 / 5700 rpm</p>
+                        <p>+ 11.1 / 5700 rpm</p>
                     </div>
 
                     <div className={"col-span-9 h-[1px] bg-gray-700 w-full"}/>
@@ -172,16 +168,16 @@ const ProductPage4 = () => {
                         <p>lb-ft</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>570.7 / 2850 rpm</p>
-                        <p>420.9 / 2850 rpm</p>
+                        <p>740 / 2900 rpm</p>
+                        <p>545.8 / 2900 rpm</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>576.5 / 2900 rpm</p>
-                        <p>425.2 / 2900 rpm</p>
+                        <p>748 / 3050 rpm</p>
+                        <p>551.7 / 3050 rpm</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>	+ 6 / 5150 rpm</p>
-                        <p>+ 4.4 / 5150 rpm</p>
+                        <p>	+ 21.3 / 2300 rpm</p>
+                        <p>+ 15.7 / 2300 rpm</p>
                     </div>
 
                     <div className={"col-span-9 h-[1px] bg-gray-700 w-full"}/>
@@ -193,20 +189,20 @@ const ProductPage4 = () => {
                         <p>%</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>21.2</p>
-                        <p>46.7</p>
+                        <p>28.95</p>
+                        <p>63.8</p>
                         <p></p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>11.05 - 10.2</p>
-                        <p>24.4 - 22.3</p>
+                        <p>19.52 - 9.4</p>
+                        <p>43 - 20.8</p>
                         <p></p>
 
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>- 10.2</p>
-                        <p> - 22.3</p>
-                        <p>- 47.9</p>
+                        <p>- 9.4</p>
+                        <p>	- 20.8</p>
+                        <p>	- 32.6</p>
                     </div>
 
                     <div className={"col-span-9 h-[1px] bg-gray-700 w-full"}/>
@@ -230,16 +226,13 @@ const ProductPage4 = () => {
 
             <div className={"grid grid-cols-2 gap-4"}>
                 <div className={"col-span-2"}>
-                    <img src={img1} alt=""/>
-                </div>
-                <div className={"col-span-2"}>
-                    <img className={"w-5/6 flex justify-start"} src={img3} alt=""/>
-                </div>
-                <div className={"col-span-2 flex justify-end"}>
-                    <img className={"w-5/6"} src={img2} alt=""/>
-                </div>
-                <div className={"col-span-2"}>
                     <img src={img4} alt=""/>
+                </div>
+                <div className={"col-span-2"}>
+                    <img className={"w-5/6 flex justify-start"} src={img5} alt=""/>
+                </div>
+                <div className={"col-span-2"}>
+                    <img src={img6} alt=""/>
                 </div>
             </div>
 
