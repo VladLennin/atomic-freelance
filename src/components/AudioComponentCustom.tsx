@@ -23,7 +23,8 @@ const AudioComponentCustom: FC<AudioProps> = ({audio}) => {
 
     return (
         <div className={"aeroport-medium flex w-full justify-center items-center gap-5 my-4 border roudned shadow p-3"}>
-                <p>Прослухати звучання</p>
+            <img className={"h-[50px]"} src={audioLogo}/>
+            <p>Прослухати звучання</p>
             <button onClick={handleButtonClick} className={"text-3xl"}>
                 {isPlaying ? <i className="bi bi-pause"></i> : <i className="bi bi-play"></i>}
             </button>

@@ -116,6 +116,8 @@ const ProductPage5 = () => {
 
             </div>
 
+            <AudioComponentCustom audio={audio}/>
+
             <div className={"bg-[#EEEDEE] flex justify-around px-2 py-4"}>
                 {product.characteristics.map(char => (
                     <div className={"aeroport-light"}>
@@ -127,7 +129,6 @@ const ProductPage5 = () => {
                 ))}
             </div>
 
-            <AudioComponentCustom audio={audio}/>
 
             <div className={"aeroport-light text-[#282828] p-[20px]"}>
                 <p className={"aeroport-medium"}>{product.titleBeforeDesc}</p>
