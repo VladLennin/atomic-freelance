@@ -14,6 +14,10 @@ import img1 from "../assets/prod2-assets/1.png";// @ts-ignore
 import img3 from "../assets/prod2-assets/3.png";// @ts-ignore
 import img2 from "../assets/prod2-assets/2.png";// @ts-ignore
 import img4 from "../assets/prod2-assets/4.png";
+import AudioComponentCustom from "../components/AudioComponentCustom";
+// @ts-ignore
+import audio from '../assets/prod2-assets/2.mp3'
+
 
 const ProductPage2 = () => {
 
@@ -122,6 +126,8 @@ const ProductPage2 = () => {
                     </div>
                 ))}
             </div>
+
+            <AudioComponentCustom audio={audio}/>
 
             <div className={"aeroport-light text-[#282828] p-[20px]"}>
                 <p className={"aeroport-medium"}>{product.titleBeforeDesc}</p>

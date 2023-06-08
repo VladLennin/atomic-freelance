@@ -10,6 +10,9 @@ import img1 from "../assets/prod4-assets/1.png";// @ts-ignore
 import img3 from "../assets/prod4-assets/3.png";// @ts-ignore
 import img2 from "../assets/prod4-assets/2.png";// @ts-ignore
 import img4 from "../assets/prod4-assets/4.png";
+import AudioComponentCustom from "../components/AudioComponentCustom";
+// @ts-ignore
+import audio from "../assets/prod4-assets/4.mp3";
 
 const ProductPage4 = () => {
 
@@ -119,6 +122,9 @@ const ProductPage4 = () => {
                 ))}
             </div>
 
+            <AudioComponentCustom audio={audio}/>
+
+
             <div className={"aeroport-light text-[#282828] p-[20px]"}>
                 <p className={"aeroport-medium"}>{product.titleBeforeDesc}</p>
                 <p className={"aeroport-light mt-4"}>
@@ -176,7 +182,7 @@ const ProductPage4 = () => {
                         <p>551.7 / 3050 rpm</p>
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
-                        <p>	+ 21.3 / 2300 rpm</p>
+                        <p> + 21.3 / 2300 rpm</p>
                         <p>+ 15.7 / 2300 rpm</p>
                     </div>
 
@@ -201,8 +207,8 @@ const ProductPage4 = () => {
                     </div>
                     <div className={"col-span-2 flex flex-col gap-3"}>
                         <p>- 9.4</p>
-                        <p>	- 20.8</p>
-                        <p>	- 32.6</p>
+                        <p> - 20.8</p>
+                        <p> - 32.6</p>
                     </div>
 
                     <div className={"col-span-9 h-[1px] bg-gray-700 w-full"}/>
@@ -235,7 +241,6 @@ const ProductPage4 = () => {
                     <img src={img6} alt=""/>
                 </div>
             </div>
-
             <Footer/>
         </>
     )

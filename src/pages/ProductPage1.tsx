@@ -13,8 +13,10 @@ import img5 from '../assets/prod1-assets/img5.jpg'// @ts-ignore
 import img6 from '../assets/prod1-assets/img6.jpg'// @ts-ignore
 import img7 from '../assets/prod1-assets/img7.jpg'// @ts-ignore
 import img8 from '../assets/prod1-assets/img8.jpg'// @ts-ignore
-import img9 from '../assets/prod1-assets/img9.jpg'
+import img9 from '../assets/prod1-assets/img9.jpg'// @ts-ignore
+import audio from '../assets/prod1-assets/1.mp3'
 import {BasketItem} from "../model/BasketItem";
+import AudioComponentCustom from "../components/AudioComponentCustom";
 
 const ProductPage1 = () => {
     const product = {
@@ -123,6 +125,9 @@ const ProductPage1 = () => {
                 ))}
             </div>
 
+            <AudioComponentCustom audio={audio}/>
+
+
             <div className={"aeroport-light text-[#282828] p-[20px]"}>
                 <p className={"aeroport-medium"}>{product.titleBeforeDesc}</p>
                 <p className={"aeroport-light mt-4"}>
@@ -131,6 +136,8 @@ const ProductPage1 = () => {
                     ))}
                 </p>
             </div>
+            
+
             <div className={"max-w-screen overflow-x-scroll mb-10"}>
                 <div
                     className={"grid grid-cols-9 w-[700px] text-[16px] overflow-x-scroll text-center aeroport-light gap-1 p-2 "}>
